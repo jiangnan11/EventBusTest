@@ -87,6 +87,7 @@ public class EventBusSendActivity extends Activity {
         bt_eventbus_send_sticky = (Button)findViewById(R.id.bt_eventbus_send_sticky);
         tv_eventbus_send_result = (TextView)findViewById(R.id.tv_eventbus_send_result);
     }
+    
 
     @Override
     protected void onDestroy() {
